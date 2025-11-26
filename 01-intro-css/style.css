@@ -1,0 +1,36 @@
+
+/* Selector general */
+*{
+margin: 0;
+padding: 0;
+/* Se aprendera mas a profundidad estos */
+}
+
+/* Selector de etiqueta */
+body{
+    background-color: #232323;
+    color: #fff;
+}
+
+/* Selector de clase */
+.btn{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+/* Selector de id */
+#social-icons{
+    background-color: blue;
+}
+/* Selectores avanzados */
+.social-icos .btn{
+border-radius: 18px;
+
+
+}
+/* Pseudo clase */
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+
